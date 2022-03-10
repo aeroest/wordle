@@ -1,0 +1,11 @@
+@import "./base/color-pallete.css";
+@import "./base/color-vars.css";
+@import "./base/sizes.css";
+@import "./base/root-tags.css";
+
+.focused-row {
+    border: 2px dotted rebeccapurple;
+}
+.focused-row > .focused-tile {
+    border: 5px solid red;
+}
